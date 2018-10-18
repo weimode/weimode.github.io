@@ -11,7 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.7.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-chalk", "~> 0.1.1"
+gem "jekyll-sleek", "~> 0.1.8"
 # gem 'jekyll-material-theme', '~> 0.6.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
