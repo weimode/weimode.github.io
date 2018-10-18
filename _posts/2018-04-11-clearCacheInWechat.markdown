@@ -2,24 +2,12 @@
 layout: post
 title:  "How to clear cache in WeChat browser"
 date:   2018-04-11 16:28:27 +0800
-categories: jekyll update
+categories: WeChat
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+最近经常接触到需要在微信内置浏览器内打开的项目，常常为它的缓存机制感到头痛。
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+至于常用的头部“no-cache”在微信内置浏览器中并不好用
 
-Jekyll also offers powerful support for code snippets:
+因此查询了相关文档，发现了一种很好用的方法：在页面URL中加上时间戳。
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+`eg."https://baidu.com?v=(timestamp)"`
