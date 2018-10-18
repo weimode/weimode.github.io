@@ -22,6 +22,12 @@ description: '做你害怕的事，然后你会发现，不过如此。'
 #   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://weimode.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+
+hero_img: darken.jpg
+
 # twitter_username: jekyllrb
 github_username:  weimode
 
@@ -34,12 +40,8 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude: ["deploy"]
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# exclude: ["deploy"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
