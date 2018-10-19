@@ -21,11 +21,11 @@ description: 'T.R.Y'
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 tagline: 'T.R.Y'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://weimode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://weimode.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 navigation: # Navigation links
-  - {name: 'Home', link: '/blog'}
+  - {name: 'Home', link: '/'}
 
 hero_img: darken.jpg
 
