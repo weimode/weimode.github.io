@@ -34,7 +34,7 @@ github_username:  weimode
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+theme: jekyll-sleek
 plugins:
   - jekyll-feed
 
