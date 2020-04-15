@@ -12,6 +12,6 @@ I also want to share my happiness with you:
 function welcome(name) {
   console.log(`Hi, ${name}!`)
 }
-welcome('Tom')
-#=> 'Hi, Tom!'
+welcome('Sura')
+#=> 'Hi, Sura!'
 {% endhighlight %}
