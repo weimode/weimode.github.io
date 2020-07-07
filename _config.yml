@@ -12,7 +12,7 @@ url: ""
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
 
-hero_img: darken.jpg
+hero_img: cover.jpeg
 
 github_username:  weimode
 
