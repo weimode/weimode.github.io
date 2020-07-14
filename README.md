@@ -1,23 +1,23 @@
-# Sleek
+# Weimode
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
+<!-- [![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
 
 A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
-> ⚠️ This theme is no longer actively maintained.
+> ⚠️ This theme is no longer actively maintained. -->
 
 <!-- ![Sleek Jekyll Theme](./sleek.jpg) -->
 
 ## Features
 
-* Compatible with [Github Pages](https://pages.github.com/)
+<!-- * Compatible with [Github Pages](https://pages.github.com/)
 * Minimal, responsive and speed performance optimized
 * SEO friendly, with help of [Jekyll SEO Plugin](https://github.com/jekyll/jekyll-seo-tag)
 * Easy [Google Tag Manager](https://tagmanager.google.com/) Integration
 * Support for [Disqus](https://disqus.com/) comments
-* Form submissions with [Formspree](#formspree)
+* Form submissions with [Formspree](#formspree) -->
 
-[Preview Demo](https://janczizikow.github.io/sleek/)
+[Preview](https://weimode.github.io/)
 
 ## Installation
 
@@ -43,15 +43,15 @@ npm install --global gulp-cli
 
 ### Up & Running
 
-1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
-2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
+1. [Fork the repo](https://github.com/weimode/weimode.github.io/fork)
+2. Clone or download the repo into directory of your choice: `git clone https://github.com/weimode/weimode.github.io.git`
 3. Inside the directory run `bundle install` and `npm install`
 4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
     * if you don't want to use gulp you can run `bundle exec jekyll serve` instead
 
 #### Installing to existing jekyll project
 
-Add this line to your Jekyll site's `Gemfile`:
+<!-- Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "jekyll-sleek"
@@ -61,7 +61,7 @@ And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: jekyll-sleek
-```
+``` -->
 
 And then execute:
 
@@ -74,7 +74,7 @@ Or install it yourself as:
 ## File Structure Overview
 
 ```bash
-sleek
+weimode
 ├── _includes	               # theme includes
 ├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
 ├── _layouts                   # theme layouts (see below for details)
@@ -180,7 +180,7 @@ If you have a Formspree Gold Account, you can take advantage of using AJAX to su
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/janczizikow/sleek](https://github.com/janczizikow/sleek). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/weimode/weimode.github.io](https://github.com/weimode/weimode.github.io). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
