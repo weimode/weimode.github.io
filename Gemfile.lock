@@ -41,10 +41,6 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-sleek (0.1.9)
-      jekyll (~> 3.6)
-      jekyll-seo-tag (~> 2.3)
-      jekyll-sitemap (~> 1.1)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -73,7 +69,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 1.12)
-  jekyll-sleek
   rake (~> 10.0)
   weimode!
 
